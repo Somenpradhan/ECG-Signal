@@ -143,7 +143,25 @@ Training Time	                   Very Fast
 
 Install the required libraries:
 
-`pip install -r requirements.txt`
+```bash
+git clone https://github.com/Somenpradhan/ECG-Signal.git
+cd ECG-Signal
+pip install -r requirements.txt
+```
+
+#### 3. **(Optional) Add Dependency Badges**
+At the top of your `README.md`, you can add a dependency badge using [shields.io](https://shields.io).
+
+Example badge:
+
+```markdown
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-Active-brightgreen)
+![Model](https://img.shields.io/badge/model-CNN--Attention-red)
+![Colab](https://img.shields.io/badge/open%20in-Google%20Colab-orange?logo=googlecolab)
+![GitHub Repo size](https://img.shields.io/github/repo-size/Somenpradhan/ECG-Signal)
+![Last Commit](https://img.shields.io/github/last-commit/Somenpradhan/ECG-Signal)
 
 ###### 🏃 Run Training
 
