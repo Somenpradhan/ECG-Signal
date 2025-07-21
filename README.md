@@ -162,7 +162,7 @@ Example badge:
 ![Colab](https://img.shields.io/badge/open%20in-Google%20Colab-orange?logo=googlecolab)
 ![GitHub Repo size](https://img.shields.io/github/repo-size/Somenpradhan/ECG-Signal)
 ![Last Commit](https://img.shields.io/github/last-commit/Somenpradhan/ECG-Signal)
-
+```
 ###### 🏃 Run Training
 
 `python train.py`
