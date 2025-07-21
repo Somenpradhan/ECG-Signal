@@ -37,6 +37,7 @@ We used a heart sound dataset that contains:
   - **Abnormal** heart sounds (with murmurs, extra sounds, etc.)
 
 ![Reference Image](/figure1.png)
+
 *Figure 1. A PCG (center tracing), with simultaneously recorded ECG (lower tracing) and the four states of the PCG recording; S1, Systole, S2 and Diastole.*
 
 Each audio clip is preprocessed and converted to a Log-Mel spectrogram, which represents both time and frequency information.
@@ -72,6 +73,7 @@ The model contains:
 
 4. **Fully Connected (Dense) Layers**
     - For final classification (Normal / Abnormal)
+  
 
 `Input (Log-Mel Spectrogram)`
     ↓
@@ -154,7 +156,8 @@ Install the required libraries:
 ##### 🔗 Google Colab
 
 Run the full project interactively in Colab:
-📎[Open in Google Colab](https://colab.research.google.com/drive/1qubvzeBC19viB5uk0fKrPbhPktJbrYbC)
+📎[![Open in Google Colab](https://img.shields.io/badge/Open%20in-Google%20Colab-orange?logo=googlecolab)](https://colab.research.google.com/drive/1qubvzeBC19viB5uk0fKrPbhPktJbrYbC)
+
 
 ##### 📦 GitHub Repo
 
@@ -192,4 +195,5 @@ ACF	Auto-Correlation Function
 
 Feel free to connect or ask questions:
 📧 Email: somenpradhan135@gmail.com
+
 🔗 GitHub: @Somenpradhan
